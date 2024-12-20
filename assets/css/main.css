@@ -3082,7 +3082,7 @@ h6 {
 
 .subscribeHeading {
   font-family: var(--default-font);
-  font-size: 24px;
+  font-size:clamp(16px, 5vw,  24px);
   font-weight: 800;
   color: rgb(49, 49, 49);
   line-height: 1.5;
@@ -3711,6 +3711,15 @@ hr {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+  .catImg img 
+  {
+    width: 100px;
+    height: 100px;
+  }
+
+  .gift_cards_bg{
+    padding: 30px 35px;
+  }
   .category_box {
    
     padding: 10px 10px;
