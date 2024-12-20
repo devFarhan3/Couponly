@@ -1,0 +1,1165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Couponly</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <img src="assets/img/logo.png" alt="">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+
+          <li class="px-3 py-3 d-lg-none d-md-none d-sm-block  d-block">
+            <div class="d-flex flex-row">
+              <div class="user_icon me-2">
+                <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1561516196934x749886500675708900/user.svg" alt="user" class="img-fluid w-25">
+              </div>
+              <div class="user_txt" data-bs-toggle="modal" data-bs-target="#signup">
+                <h6 class="mb-0">Create an account</h6>
+                <small>Click to sign up</small>
+              </div>
+            </div>
+          </li>
+
+          <li><a href="#">Gift Cards</a></li>
+          <li class="dropdown"><a href="#"><span>Categories</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Popular Categories</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Electronics</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Travel</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Beauty</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Beauty</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Fashion</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Fitness</a></li>
+              <li><a href="#" class="anchor_Color">View all categories</a></li>
+            </ul>
+          </li>
+         
+          <li class="listing-dropdown"><a href="#"><span>Brands</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Popular Brands</a></li>
+              <li><a href="#" class="dropdown_light_anchor">H&M</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Calvin Klein</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Adidas</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Air Jordan</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Chanel</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Fendi</a></li>
+              <li><a href="#" class="dropdown_light_anchor">GAP</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Gucci</a></li>
+              <li><a href="#" class="dropdown_light_anchor">Celine</a></li>
+              <li><a href="#" class="anchor_Color">View all categories</a></li>
+            </ul>
+          </li>
+        
+          <li><a href="#">Contact</a></li>
+          <li><a href="index.html" class="d-lg-none d-md-none d-sm-block  d-block">Back to Home Page</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+     
+        <div class="btn-group ms-lg-5 ms-md-4 ms-sm-0 ms-0 me-sm-0 me-0 cart_btn">
+          <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false">
+          
+              <span>
+                <img src="assets/img/profile-circle.svg" alt="user"  class="img-fluid"> 
+                <span class="d-lg-inline-flex d-md-inline-flex d-sm-none d-none"> Account</span>
+              </span> 
+           
+           
+          </button>
+          <button type="button" class="btn btn-danger">
+            <span>
+              <span><img src="assets/img/bag1.svg" alt="user"  class="img-fluid"> </span>
+            </span>
+          </button>
+        
+          <ul class="dropdown-menu">
+           <div class="user_logform">
+            <form class="">
+              <div class="row gy-3">
+                <div class="">
+                  <label for="email" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter email">
+                  
+                </div>
+                <div class="">
+                  <label for="Password" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="Password" placeholder=" Enter Password">
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class=" form-check">
+                    <input type="checkbox" class="form-check-input" id="Remember" checked>
+                    <label class="form-check-label" for="Remember">Remember me</label>
+                  </div>
+
+                  <div>
+                    <a href="# " class="anchor_Color"><small>Forgot Password?</small> </a>
+                  </div>
+                </div>
+               
+                <div class="col-lg-12">
+                  <a href="# " class="btn view_all w-100 mb-3">Sign In </a>
+
+                  <div class="social_login">
+                    <div class="small_text text-center  ">
+                      <small>Or sign in with</small>
+                    </div>
+
+                      <div class="d-flex justify-content-between mt-lg-4 mt-md-4 mt-sm-3 mt-3 mb-3 mb-4">
+                        <div class="">
+                          <a href="# " class="fb_btn "><small><i class="bi bi-facebook me-2"></i> Facebook</small> </a>
+                        </div>
+      
+                        <div class="">
+                          <a href="# " class="google_btn "><small><i class="bi bi-google me-2"></i> Google</small> </a>
+                        </div>
+                      </div>
+                   
+
+                    <hr >
+
+                    <div class="dont_acc">
+                      <p>Don't have an account? <a href="# " class="text-decoration-underline" data-bs-toggle="modal" data-bs-target="#signup">Sign Up</a></p>
+                    </div>
+                  </div>
+                </div>
+                </div>
+            </form>
+           </div>
+          </ul>
+        </div>
+     
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section position-relative">
+
+      <div class="container">
+      <div class="mobile_bg">
+        <div class="row gy-4 d-flex align-items-center">
+          <div class="col-lg-10 col-md-10 col-sm-10 col-10   d-flex flex-column justify-content-center">
+           <div class="hero_bg">
+            <h1 data-aos="fade-up" class="mainHeading mw-mainHeading">GET 20% OFF ALL SHOPS AND BRANDS ON OUR PLATFORMS </h1>
+            <!-- <p data-aos="fade-up" data-aos-delay="100">We are team of talented designers making websites with Bootstrap</p> -->
+           </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-2 col-2 position-relative " data-aos="zoom-out">
+           <div class="star_bg  img-fluid animated"></div>
+          </div>
+        </div>
+      </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- search_brands Section -->
+    <section id="search_brands" class="search_brands  pt-lg-0 pt-md-0 pt-sm-0 pt-0">
+      <div class="container" data-aos="fade-up">
+       <div class="bg-color">
+        <div class="row gx-0 ">
+          <div class="col-lg-12  d-flex flex-lg-row justify-content-lg-between flex-md-row  justify-content-md-start  flex-sm-row  justify-content-sm-start flex-row justify-content-start gap-3 align-items-lg-center align-items-md-center align-items-sm-start align-items-center">
+            <div data-aos="fade-up" class="aos-init aos-animate svg_mob ">
+              <img src="assets/img/coupouns.svg" alt="coupons" class="img-fluid">
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate w-50 mw_100">
+              <div class="search-bar bg-field">
+                <form class="search-form d-flex align-items-center" method="POST" action="#">
+                  <input type="text" name="query" placeholder="Search brands on Couponly" title="Search brands on Couponly">
+                  <button type="submit" title="Search"><i class="bi bi-search"></i></button>
+                </form>
+              </div>
+            
+            </div>
+            <div class="d-lg-block d-md-none d-sm-none d-none " data-aos="fade-up" data-aos-delay="200">
+             <p class="paratext">All promotions and coupons on one  <br>
+              convenient platform</p>
+            </div>
+          </div>
+
+       
+        </div>
+       </div>
+      </div>
+
+      <div class="container search_brands_imgs" data-aos="fade-up">
+        <div class=" mt-lg-5 mt-md-4 mt-sm-3 mt-3 text-sm-center text-center gap-3 d-lg-block d-md-block d-sm-none d-none">
+            <div class="row align-items-center  ">
+              <div class="col-lg-10">
+                <div class="grid-img d-flex flex-lg-row flex-md-row flex-sm-column flex-column justify-content-between  gap-3 ">
+                  <div  data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+                    <img src="assets/img/walmart.png" alt="walmart" class="img-fluid">
+                  </div>
+    
+                  <div data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
+                    <img src="assets/img/ebat.png" alt="walmart" class="img-fluid">
+                  
+                  </div>
+                  <div class=" " data-aos="fade-up" data-aos-delay="300">
+                    <img src="assets/img/amazon.png" alt="walmart" class="img-fluid">
+                  </div>
+                  <div class=" " data-aos="fade-up" data-aos-delay="400">
+                    <img src="assets/img/target.png" alt="walmart" class="img-fluid">
+                  </div>
+                  <div class=" " data-aos="fade-up" data-aos-delay="500">
+                    <img src="assets/img/bb.png" alt="walmart" class="img-fluid">
+                  </div>
+                  <div class=" " data-aos="fade-up" data-aos-delay="600">
+                    <img src="assets/img/coupouns.svg" alt="coupons" class="img-fluid">
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-2 d-lg-block d-md-none d-sm-none d-none">
+                <div data-aos="fade-up" class="aos-init aos-animate ">
+                  <img src="assets/img/walmart.png" alt="walmart" class="img-fluid">
+                </div>
+              </div>
+          
+            
+
+            </div>
+        </div>
+
+        <div class="mobile_brands d-lg-none d-md-none d-sm-block d-block">
+          <ul class="list-inline mb-0">
+           
+            <li class="list-inline-item">
+              <div  data-aos="fade-up" data-aos-delay="100" class="aos-init aos-animate">
+                <img src="assets/img/walmart.png" alt="walmart" class="img-fluid">
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <div data-aos="fade-up" data-aos-delay="200" class="aos-init aos-animate">
+                <img src="assets/img/ebat.png" alt="walmart" class="img-fluid">
+              
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <div data-aos="fade-up" data-aos-delay="300" class="aos-init aos-animate">
+                <img src="assets/img/amazon.png" alt="walmart" class="img-fluid">
+              
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <div data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">
+                <img src="assets/img/target.png" alt="walmart" class="img-fluid">
+              
+              </div>
+            </li>
+            <li class="list-inline-item">
+              <div data-aos="fade-up" data-aos-delay="400" class="aos-init aos-animate">
+                <img src="assets/img/bb.png" alt="walmart" class="img-fluid">
+              
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- top_offer Section -->
+    <section id="top_offer" class="top_offer section">
+      <!-- Section Title -->
+      <div class="container section-title text-start" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="d-flex  gap-1 ">
+              <div class="mt-0 order-lg-0 order-md-0 order-sm-2 order-2">
+                 <img src="assets/img/arr.svg" alt="arow" class="img-fluid w-75">
+              </div>
+              <div>
+                <div class="d-flex flex-column mb-3 o">
+                  <div class="">  <h3 class="subHeading mb-0">TODAY'S TOP OFFERS</h3></div>
+                  <div class="p-2 "><p class="paratext">Grab these hot deals from your favourite brands</p></div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <!-- End Section Title -->
+      <div class="container">
+        <div class="card_sec">
+          <div class="row gy-4">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="100">
+              <div class="card-bg">
+                <div class="d-flex justify-content-between pb-2">
+                  <div class="brand_logo">
+                    <img src="assets/img/Adidas_Logo.svg" alt="Adidas_Logo" class="img-fluid">
+                  </div>
+
+                  <div class="heart">
+                  <a href="#"> <i class="bi bi-heart fs-5"></i></a>
+                  </div>
+                </div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="p-2 pb-0">
+                      <h5 class="cardHeading pb-0">Get 40% Off Adidas</h5>
+                    </div>
+                    <div class="p-2 pb-0"><span class="smalltext">USED 2061 TIMES</span></div>
+                    <div class="p-2 sale_tag">
+                      <span class="badge rounded-pill">SALE</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="200">
+              <div class="card-bg">
+                <div class="d-flex justify-content-between pb-2">
+                  <div class="brand_logo">
+                    <img src="assets/img/Adidas_Logo.svg" alt="Adidas_Logo" class="img-fluid">
+                  </div>
+
+                  <div class="heart">
+                  <a href="#"> <i class="bi bi-heart fs-5"></i></a>
+                  </div>
+                </div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="p-2 pb-0">
+                      <h5 class="cardHeading pb-0">Get 40% Off Adidas</h5>
+                    </div>
+                    <div class="p-2 pb-0"><span class="smalltext">USED 2061 TIMES</span></div>
+                    <div class="p-2 sale_tag">
+                      <span class="badge rounded-pill">SALE</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="300">
+              <div class="card-bg">
+                <div class="d-flex justify-content-between pb-2">
+                  <div class="brand_logo">
+                    <img src="assets/img/Chanel-Logo.png" alt="Chanel-Logo" class="img-fluid">
+                  </div>
+
+                  <div class="heart">
+                  <a href="#"> <i class="bi bi-heart fs-5"></i></a>
+                  </div>
+                </div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="p-2 pb-0">
+                      <h5 class="cardHeading pb-0">Get 40% Off Adidas</h5>
+                    </div>
+                    <div class="p-2 pb-0"><span class="smalltext">USED 2061 TIMES</span></div>
+                    <div class="p-2 sale_tag">
+                      <span class="badge rounded-pill">SALE</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="400">
+              <div class="card-bg">
+                <div class="d-flex justify-content-between pb-2">
+                  <div class="brand_logo">
+                    <img src="assets/img/Gucci-Logo.png" alt="Gucci-Logo" class="img-fluid">
+                  </div>
+
+                  <div class="heart">
+                  <a href="#"> <i class="bi bi-heart fs-5"></i></a>
+                  </div>
+                </div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="p-2 pb-0">
+                      <h5 class="cardHeading pb-0">Get 40% Off Adidas</h5>
+                    </div>
+                    <div class="p-2 pb-0"><span class="smalltext">USED 2061 TIMES</span></div>
+                    <div class="p-2 red_promo">
+                      <span class="badge rounded-pill ">PROMO</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+
+            <!-- second row -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="100">
+              <div class="card-bg">
+                <div class="d-flex justify-content-between pb-2">
+                  <div class="brand_logo">
+                    <img src="assets/img/Zara-logo.png" alt="Adidas_Logo" class="img-fluid">
+                  </div>
+
+                  <div class="heart">
+                  <a href="#"> <i class="bi bi-heart fs-5"></i></a>
+                  </div>
+                </div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="p-2 pb-0">
+                      <h5 class="cardHeading pb-0">Get 40% Off Adidas</h5>
+                    </div>
+                    <div class="p-2 pb-0"><span class="smalltext">USED 2061 TIMES</span></div>
+                    <div class="p-2 sale_tag">
+                      <span class="badge rounded-pill">SALE</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="200">
+              <div class="card-bg">
+                <div class="d-flex justify-content-between pb-2">
+                  <div class="brand_logo">
+                    <img src="assets/img/Air-Jordan-Logo.png" alt="Adidas_Logo" class="img-fluid">
+                  </div>
+
+                  <div class="heart">
+                  <a href="#"> <i class="bi bi-heart fs-5"></i></a>
+                  </div>
+                </div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="p-2 pb-0">
+                      <h5 class="cardHeading pb-0">50% off red jordans</h5>
+                    </div>
+                    <div class="p-2 pb-0"><span class="smalltext">USED 2061 TIMES</span></div>
+                    <div class="p-2 sale_tag">
+                      <span class="badge rounded-pill">SALE</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="300">
+              <div class="card-bg">
+                <div class="d-flex justify-content-between pb-2">
+                  <div class="brand_logo">
+                    <img src="assets/img/Chanel-Logo.png" alt="Chanel-Logo" class="img-fluid">
+                  </div>
+
+                  <div class="heart">
+                  <a href="#"> <i class="bi bi-heart fs-5"></i></a>
+                  </div>
+                </div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="p-2 pb-0">
+                      <h5 class="cardHeading pb-0">Get 40% Off Adidas</h5>
+                    </div>
+                    <div class="p-2 pb-0"><span class="smalltext">USED 2061 TIMES</span></div>
+                    <div class="p-2 sale_tag">
+                      <span class="badge rounded-pill">SALE</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12 " data-aos="fade-up" data-aos-delay="400">
+              <div class="card-bg">
+                <div class="d-flex justify-content-between pb-2">
+                  <div class="brand_logo">
+                    <img src="assets/img/Gucci-Logo.png" alt="Gucci-Logo" class="img-fluid">
+                  </div>
+
+                  <div class="heart">
+                  <a href="#"> <i class="bi bi-heart fs-5"></i></a>
+                  </div>
+                </div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="p-2 pb-0">
+                      <h5 class="cardHeading pb-0">Get 40% Off Adidas</h5>
+                    </div>
+                    <div class="p-2 pb-0"><span class="smalltext">USED 2061 TIMES</span></div>
+                    <div class="p-2 red_promo">
+                      <span class="badge rounded-pill ">PROMO</span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+             <!-- second row  ends -->
+          </div>
+          
+      
+        
+
+
+
+        </div>
+
+      </div>
+    </section>
+    <!-- /top_offer Section -->
+
+    <!-- gift cards deals Section -->
+    <section id="deals_section" class="deals_section ">
+      <div class="container section-title text-start" data-aos="fade-up" data-aos-delay="100">
+        <!-- Section Title -->
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="d-flex  gap-1 sec-gap-padding">
+                <div class="mt-0 order-lg-0 order-md-0 order-sm-2 order-2">
+                   <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668683048085x761231536789239700/3screen_img1.svg" alt="arow" class="img-fluid w-75">
+                </div>
+                <div>
+                  <div class="d-flex flex-column mb-3">
+                    <div class="">  <h3 class="subHeading mb-0">GIFT CARD DEALS ON COUPONLY</h3></div>
+                    <div class="p-2 "><p class="paratext">Save big with our juicy gift card deals from top brands</p></div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- End Section Title -->
+         
+        <div class="row d-flex flex-wrap gy-3">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="gift_cards_bg h-100">
+          
+              <div class="d-flex flex-column justify-content-start ">
+                <div class="p-2">
+                  <div class="card_img">
+                    <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io%2Ff1668684207580x399071101052134600%2Fimage%252029.png?w=384&h=113&auto=compress&fit=crop&dpr=2" alt="walmart" class="img-fluid">
+                </div>
+                </div>
+                <div class="p-2">
+                  <div class="coupouns_head">
+                    <div class="d-flex justify-content-between">
+                      <div> <h6 class="deals_text">Up to 1% instant <br> cash back</h6></div>
+                      <div class="dealsbtn"> 
+                        <button type="button" class="btn btn-primary">From $5</button>
+                      </div>
+                    </div>
+                   
+                  </div>
+                </div>
+             
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+              <div class="h-100">
+                <div class="row gy-3">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="gift_cards_bg_1 h-100">
+            
+                      <div class="d-flex flex-column justify-content-start ">
+                        <div class="p-2">
+                          <div class="card_img_1">
+                            <img src="assets/img/amazon.png" alt="walmart" class="img-fluid">
+                        </div>
+                        </div>
+                        <div class="p-2">
+                          <div class="coupouns_head">
+                            <div class="d-flex justify-content-between flex-lg-row flex-md-row flex-sm-column flex-column">
+                              <div> <h6 class="deals_text_1">Up to 1% instant <br> cash back</h6></div>
+                              <div class="dealsbtn_1"> 
+                                <button type="button" class="btn btn-primary">From $5</button>
+                              </div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                     
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="gift_cards_bg_1 h-100">
+            
+                      <div class="d-flex flex-column justify-content-start ">
+                        <div class="p-2">
+                          <div class="card_img_1">
+                            <img src="assets/img/target.png" alt="target" class="img-fluid">
+                        </div>
+                        </div>
+                        <div class="p-2">
+                          <div class="coupouns_head">
+                            <div class="d-flex justify-content-between flex-lg-row flex-md-row flex-sm-column flex-column">
+                              <div> <h6 class="deals_text_1">Up to 4 instant <br> cash back</h6></div>
+                              <div class="dealsbtn_1"> 
+                                <button type="button" class="btn btn-primary">From $5</button>
+                              </div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                     
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="gift_cards_bg_1 h-100">
+            
+                      <div class="d-flex flex-column justify-content-start ">
+                        <div class="p-2">
+                          <div class="card_img_1">
+                            <img src="assets/img/amazon.png" alt="walmart" class="img-fluid">
+                        </div>
+                        </div>
+                        <div class="p-2">
+                          <div class="coupouns_head">
+                            <div class="d-flex justify-content-between flex-lg-row flex-md-row flex-sm-column flex-column">
+                              <div> <h6 class="deals_text_1">Up to 1% instant <br> cash back</h6></div>
+                              <div class="dealsbtn_1"> 
+                                <button type="button" class="btn btn-primary">From $5</button>
+                              </div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                     
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <div class="gift_cards_bg_1 h-100">
+            
+                      <div class="d-flex flex-column justify-content-start ">
+                        <div class="p-2">
+                          <div class="card_img_1">
+                            <img src="assets/img/amazon.png" alt="walmart" class="img-fluid">
+                        </div>
+                        </div>
+                        <div class="p-2">
+                          <div class="coupouns_head">
+                            <div class="d-flex justify-content-between flex-lg-row flex-md-row flex-sm-column flex-column">
+                              <div> <h6 class="deals_text_1">Up to 1% instant <br> cash back</h6></div>
+                              <div class="dealsbtn_1"> 
+                                <button type="button" class="btn btn-primary">From $5</button>
+                              </div>
+                            </div>
+                           
+                          </div>
+                        </div>
+                     
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- gift cards deals Section  ends-->
+
+    <!-- browse_category  Section -->
+    <section id="browse_category" class="browse-category">
+
+     <!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="browse_category">
+              <!-- Section Title -->
+            <div class=" section-title" data-aos="fade-up">
+              <!-- <h2>BROWSE POPULAR CATEGORIES</h2> -->
+              <p class="subHeading ">BROWSE POPULAR <br> CATEGORIES</p>
+            </div>
+
+            <div class="sec-gap-padding"></div>
+            <!-- Section Title -->
+
+            <div class="row gy-3">
+              <div class="col-xl-2 col-md-4 col-sm-6 col-6" data-aos="zoom-out" data-aos-delay="100">
+                <div class="category_box">
+                  <div class="d-flex flex-column ">
+                    <div class="p-2">
+                      <div class="catImg">
+                        <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668687789945x955685062190904700/Travel.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="cat_text">
+                      <p>Travel</p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6 col-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="category_box">
+                  <div class="d-flex flex-column ">
+                    <div class="p-2">
+                      <div class="catImg">
+                        <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668687789945x955685062190904700/Travel.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="cat_text">
+                      <p>Travel</p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6 col-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="category_box">
+                  <div class="d-flex flex-column ">
+                    <div class="p-2">
+                      <div class="catImg">
+                        <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668687789945x955685062190904700/Travel.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="cat_text">
+                      <p>Travel</p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6 col-6" data-aos="zoom-out" data-aos-delay="100">
+                <div class="category_box">
+                  <div class="d-flex flex-column ">
+                    <div class="p-2">
+                      <div class="catImg">
+                        <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668687789945x955685062190904700/Travel.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="cat_text">
+                      <p>Travel</p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6 col-6" data-aos="zoom-out" data-aos-delay="200">
+                <div class="category_box">
+                  <div class="d-flex flex-column ">
+                    <div class="p-2">
+                      <div class="catImg">
+                        <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668687789945x955685062190904700/Travel.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="cat_text">
+                      <p>Travel</p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-2 col-md-4 col-sm-6 col-6" data-aos="zoom-out" data-aos-delay="300">
+                <div class="category_box">
+                  <div class="d-flex flex-column ">
+                    <div class="p-2">
+                      <div class="catImg">
+                        <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668687789945x955685062190904700/Travel.svg" alt="">
+                      </div>
+                    </div>
+                    <div class="cat_text">
+                      <p>Travel</p>
+                    </div>
+                  
+                  </div>
+                </div>
+              </div>
+    
+              <div class="clearfix sec-gap-padding"></div>
+
+              <div class="d-flex justify-content-between">
+                <div class="bottom_img" data-aos="fade-up" data-aos-delay="100">
+                  <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668688991995x685856398311933000/Vector%20screen%205.svg" alt="" class="img-fluid">
+                </div>
+                <div class="bottom_img" data-aos="fade-up" data-aos-delay="100">
+                  <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668689020391x637197222095784000/Vector%20screen%205%201.svg" alt="" class="img-fluid">
+                </div>
+                <div class="bottom_img" data-aos="fade-up" data-aos-delay="100">
+                  <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668689008724x416343780415816960/Vector%20screen%205%202.svg" alt="" class="img-fluid">
+                </div>
+              </div>
+            
+            </div>
+        </div>
+
+      
+
+      </div>
+
+    </section>
+    <!-- /browse_category Section -->
+
+    <!-- fav_brands Section -->
+    <section id="fav_brands" class="fav_brands">
+      <div class="container">
+        <!-- Section Title -->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="d-flex  gap-1 sec-gap-padding">
+              <div class="mt-0 order-lg-0 order-md-0 order-sm-2 order-2">
+                 <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668690238460x956446282271721700/5screen.svg" alt="arow" class="img-fluid w-75">
+              </div>
+              <div>
+                <div class="d-flex flex-column mb-3">
+                  <div class="">  <h3 class="subHeading mb-0">ALL YOUR FAVOURITE BRANDS</h3></div>
+                  <div class="p-2 "><p class="paratext ">We have over 0 deals for you to choose from</p></div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- End Section Title -->
+        <div class="row gy-4">
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="category_box">
+              <div class="d-flex flex-column ">
+                <div class="p-2">
+                  <div class="catImg">
+                    <img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2F2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io%2Ff1684828241724x739601750273468000%2Famazon-new-york.webp?w=256&h=114&auto=compress&dpr=1&fit=max" alt="">
+                  </div>
+                </div>
+                <div class="cat_text">
+                  <p>Amazon</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="category_box">
+              <div class="d-flex flex-column ">
+                <div class="p-2">
+                  <div class="catImg">
+                    <img src="assets/img/Chanel-Logo.png" alt="logo" class="img-fluid">
+                  </div>
+                </div>
+                <div class="cat_text">
+                  <p>Chanel</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="300">
+            <div class="category_box">
+              <div class="d-flex flex-column ">
+                <div class="p-2">
+                  <div class="catImg">
+                    <img src="assets/img/Zara-logo.png" alt="logo" class="img-fluid">
+                  </div>
+                </div>
+                <div class="cat_text">
+                  <p>Zara</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="400">
+            <div class="category_box">
+              <div class="d-flex flex-column ">
+                <div class="p-2">
+                  <div class="catImg">
+                    <img src="assets/img/Adidas_Logo.svg" alt="logo" class="img-fluid">
+                  </div>
+                </div>
+                <div class="cat_text">
+                  <p>Chanel</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="category_box">
+              <div class="d-flex flex-column ">
+                <div class="p-2">
+                  <div class="catImg">
+                    <img src="assets/img/target.png" alt="target" class="img-fluid">
+                  </div>
+                </div>
+                <div class="cat_text">
+                  <p>Amazon</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="200">
+            <div class="category_box">
+              <div class="d-flex flex-column ">
+                <div class="p-2">
+                  <div class="catImg">
+                    <img src="assets/img/ebat.png" alt="ebat" class="img-fluid">
+                  </div>
+                </div>
+                <div class="cat_text">
+                  <p>Ebay</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="300">
+            <div class="category_box">
+              <div class="d-flex flex-column ">
+                <div class="p-2">
+                  <div class="catImg">
+                    <img src="assets/img/walmart.png" alt="walmart" class="img-fluid">
+                  </div>
+                </div>
+                <div class="cat_text">
+                  <p>walmart</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="400">
+            <div class="category_box">
+              <div class="d-flex flex-column ">
+                <div class="p-2">
+                  <div class="catImg">
+                    <img src="assets/img/Gucci-Logo.png" alt="logo" class="img-fluid">
+                  </div>
+                </div>
+                <div class="cat_text">
+                  <p>Chanel</p>
+                </div>
+              
+              </div>
+            </div>
+          </div>
+
+          <div class="clearfix sec-gap-padding mt-0"> </div>
+          <div class="view_brands_btn d-flex justify-content-center mt-0">
+            <a href="# " class="btn view_all">View all brands </a>
+          </div>
+    
+        </div>
+    
+      </div>
+
+    </section>
+    <!-- fav_brands Section -->
+
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+   <div class="container ">
+    <div class="top_deals_form ">
+      <div class="d-flex justify-content-between mb-lg-3 mb-md-3 mb-sm-3 mb-3">
+        <div class="letter_text">
+          <p>Never miss another deal</p>
+          <h6 class="subscribeHeading">Get the top deals from 100s <br> of retailers on our platform</h6>
+        </div>
+        <div class="subs_img d-lg-block d-md-block d-sm-none d-none">
+          <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668691975675x980368643800532400/Group%20SUBSCRIPTION.svg" alt="img" class="img-fluid">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+          <form action="">
+            <input type="email" maxlength="50" required placeholder="Email address">
+            <a href="# " class="btn view_all bt ">Subscribe </a>
+            <!-- <a href="#" class="d-lg-none d-md-none d-sm-block d-block send_icon"> <img src="assets/img/send.svg" alt="img" class="img-fluid"></a> -->
+    
+          </form>
+        </div>
+      </div>
+    </div>
+   </div>
+
+    <div class="container-fluid footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-6 col-md-3 col-sm-12 col-12 footer-about">
+          <a href="index.html" class="d-flex align-items-center justify-content-lg-start justify-content-md-start justify-content-sm-center justify-content-center">
+            <svg width="160" height="32" viewBox="0 0 1075 272" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M125.752 20.9379C146.148 20.9379 162.683 37.1785 162.683 57.2122V66H184V57.2122C184 25.6148 157.921 0 125.752 0C94.9609 0 70 24.517 70 54.7602V66H91.3171V54.7602C91.3171 36.0807 106.734 20.9379 125.752 20.9379Z" fill="white"/>
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M37.9803 65.718C27.7556 65.718 19.1774 73.43 18.0931 83.5971L0.359119 249.879C-0.901268 261.697 8.36136 272 20.2463 272H233.102C245.217 272 254.55 261.314 252.92 249.31L230.35 83.028C229.004 73.1128 220.537 65.718 210.531 65.718H37.9803ZM99.5939 229.174C110.447 234.847 122.657 237.684 136.224 237.684C148.064 237.684 158.732 235.587 168.229 231.394C177.726 227.201 185.619 221.157 191.909 213.264L168.599 192.174C160.212 202.287 150.037 207.344 138.074 207.344C131.044 207.344 124.754 205.802 119.204 202.719C113.777 199.636 109.522 195.319 106.439 189.769C103.479 184.096 101.999 177.621 101.999 170.344C101.999 163.067 103.479 156.654 106.439 151.104C109.522 145.431 113.777 141.052 119.204 137.969C124.754 134.886 131.044 133.344 138.074 133.344C150.037 133.344 160.212 138.401 168.599 148.514L191.909 127.424C185.619 119.531 177.726 113.487 168.229 109.294C158.732 105.101 148.064 103.004 136.224 103.004C122.657 103.004 110.447 105.902 99.5939 111.699C88.8639 117.372 80.4156 125.327 74.2489 135.564C68.0822 145.801 64.9989 157.394 64.9989 170.344C64.9989 183.294 68.0822 194.887 74.2489 205.124C80.4156 215.361 88.8639 223.377 99.5939 229.174Z" fill="white"/>
+              <path d="M369.19 213.743C356.983 213.743 346.301 211.191 337.145 206.087C328.103 200.87 321.151 193.611 316.291 184.311C311.43 174.898 309 163.953 309 151.477C309 139.115 311.43 128.284 316.291 118.983C321.151 109.57 328.103 102.311 337.145 97.2075C346.301 92.1037 356.983 89.5519 369.19 89.5519C377.216 89.5519 384.845 90.7995 392.08 93.2946C399.427 95.6764 405.418 99.0788 410.052 103.502L401.744 122.556C396.318 118.473 391.006 115.524 385.806 113.71C380.72 111.781 375.351 110.817 369.699 110.817C358.848 110.817 350.54 114.277 344.775 121.195C339.01 128.113 336.128 138.207 336.128 151.477C336.128 164.86 339.01 175.068 344.775 182.1C350.54 189.018 358.848 192.477 369.699 192.477C375.351 192.477 380.72 191.57 385.806 189.755C391.006 187.827 396.318 184.822 401.744 180.739L410.052 199.793C405.418 204.216 399.427 207.675 392.08 210.17C384.845 212.552 377.216 213.743 369.19 213.743Z" fill="white"/>
+              <path d="M466.309 213.573C457.154 213.573 449.128 211.758 442.233 208.129C435.451 204.499 430.195 199.282 426.465 192.477C422.848 185.672 421.04 177.733 421.04 168.66C421.04 159.586 422.848 151.647 426.465 144.842C430.195 138.037 435.451 132.82 442.233 129.191C449.128 125.562 457.154 123.747 466.309 123.747C475.352 123.747 483.265 125.562 490.047 129.191C496.829 132.82 502.028 138.037 505.645 144.842C509.375 151.647 511.24 159.586 511.24 168.66C511.24 177.733 509.375 185.672 505.645 192.477C502.028 199.282 496.829 204.499 490.047 208.129C483.265 211.758 475.352 213.573 466.309 213.573ZM466.309 194.008C472.639 194.008 477.443 191.91 480.721 187.714C484.112 183.517 485.808 177.166 485.808 168.66C485.808 160.267 484.112 153.972 480.721 149.776C477.443 145.466 472.639 143.311 466.309 143.311C459.867 143.311 454.95 145.466 451.559 149.776C448.168 153.972 446.472 160.267 446.472 168.66C446.472 185.559 453.085 194.008 466.309 194.008Z" fill="white"/>
+              <path d="M609.667 125.959V212.212H584.743V199.622C582.03 204.159 578.47 207.618 574.061 210C569.653 212.382 564.68 213.573 559.141 213.573C548.403 213.573 540.377 210.567 535.065 204.556C529.752 198.545 527.096 189.472 527.096 177.336V125.959H552.698V177.846C552.698 188.281 557.163 193.498 566.092 193.498C571.405 193.498 575.7 191.683 578.978 188.054C582.256 184.425 583.895 179.661 583.895 173.763V125.959H609.667Z" fill="white"/>
+              <path d="M682.988 123.747C690.335 123.747 696.891 125.675 702.656 129.531C708.421 133.274 712.885 138.604 716.05 145.523C719.328 152.441 720.967 160.324 720.967 169.17C720.967 178.017 719.385 185.842 716.22 192.647C713.055 199.339 708.59 204.499 702.825 208.129C697.061 211.758 690.448 213.573 682.988 213.573C676.997 213.573 671.628 212.325 666.881 209.83C662.133 207.335 658.516 203.876 656.03 199.452V248.959H630.427V150.627C630.427 141.44 629.975 133.217 629.071 125.959H653.147L654.843 140.249C657.103 135.145 660.72 131.119 665.694 128.17C670.78 125.221 676.545 123.747 682.988 123.747ZM675.697 194.008C682.027 194.008 686.888 191.91 690.279 187.714C693.67 183.404 695.365 177.223 695.365 169.17C695.365 161.118 693.613 154.823 690.109 150.286C686.718 145.75 681.914 143.481 675.697 143.481C669.367 143.481 664.451 145.693 660.946 150.116C657.555 154.426 655.86 160.664 655.86 168.83C655.86 176.996 657.555 183.234 660.946 187.544C664.451 191.853 669.367 194.008 675.697 194.008Z" fill="white"/>
+              <path d="M778.421 213.573C769.265 213.573 761.24 211.758 754.345 208.129C747.563 204.499 742.307 199.282 738.577 192.477C734.96 185.672 733.151 177.733 733.151 168.66C733.151 159.586 734.96 151.647 738.577 144.842C742.307 138.037 747.563 132.82 754.345 129.191C761.24 125.562 769.265 123.747 778.421 123.747C787.464 123.747 795.376 125.562 802.158 129.191C808.94 132.82 814.14 138.037 817.757 144.842C821.487 151.647 823.352 159.586 823.352 168.66C823.352 177.733 821.487 185.672 817.757 192.477C814.14 199.282 808.94 204.499 802.158 208.129C795.376 211.758 787.464 213.573 778.421 213.573ZM778.421 194.008C784.751 194.008 789.555 191.91 792.833 187.714C796.224 183.517 797.919 177.166 797.919 168.66C797.919 160.267 796.224 153.972 792.833 149.776C789.555 145.466 784.751 143.311 778.421 143.311C771.978 143.311 767.061 145.466 763.67 149.776C760.279 153.972 758.584 160.267 758.584 168.66C758.584 185.559 765.196 194.008 778.421 194.008Z" fill="white"/>
+              <path d="M892.785 123.747C913.131 123.747 923.304 135.826 923.304 159.983V212.212H897.702V161.174C897.702 155.163 896.572 150.797 894.311 148.075C892.163 145.239 888.716 143.822 883.969 143.822C878.317 143.822 873.796 145.636 870.405 149.266C867.014 152.895 865.318 157.772 865.318 163.896V212.212H839.716V150.627C839.716 141.44 839.264 133.217 838.36 125.959H862.436L864.131 139.568C867.183 134.465 871.139 130.552 876 127.83C880.973 125.108 886.568 123.747 892.785 123.747Z" fill="white"/>
+              <path d="M943.698 87H969.3V212.212H943.698V87Z" fill="white"/>
+              <path d="M1075 125.959L1035.33 216.805C1030.46 227.806 1024.3 235.859 1016.84 240.963C1009.5 246.18 1000.45 249.526 989.716 251L983.782 231.266C991.694 229.564 997.629 227.409 1001.58 224.801C1005.65 222.192 1008.82 218.393 1011.08 213.402L1013.62 207.788L978.187 125.959H1004.98L1027.02 181.929L1049.74 125.959H1075Z" fill="white"/>
+              </svg>
+              
+          </a>
+       <div class="mt-lg-5 mt-md-5 mt-sm-5 mt-5 d-lg-block d-md-block d-sm-none d-none">
+         <img src="https://2cad306a2f39b28043b27e53a58f521e.cdn.bubble.io/f1668693000508x982208252369994600/Group%20416.svg" alt="" class="img-fluid">
+       </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3  col-sm-4 col-4 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul>
+        </div>
+
+        
+        <div class="col-lg-2 col-md-3 col-sm-4 col-4 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul>
+        </div>
+
+       <hr>
+        <div class="col-lg-12">
+          <p class="text-white text-center">Couponly is a registered trademark of Couponly Inc. Third-party trademarks are the property of their respective third-party owners. Presence of a third-party trademark does not mean that Couponly has any relationship with that third-party or that the third-party endorses CouponDeals or its services.</p>
+        </div>
+
+        <div class="mt-lg-4">
+          <ul class="list-inline">
+            <li class="list-inline-item text-white">Terms</li>
+            <li class="list-inline-item text-white">Privacy</li>
+          
+          </ul>
+        </div>
+      </div>
+    </div>
+
+   
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <!-- signup modal form -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="signup" tabindex="-1" aria-labelledby="signupLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header border-0 pb-0">
+        <h1 class="modal-title fs-5 fw-bold" id="signupLabel">Sign up to Couponly
+        </h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="user_logform">
+          <form class="col-lg-12">
+            <div class="row gy-3">
+              <div class="">
+                <label for="text" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="FullName" aria-describedby="email" placeholder="Full Name">
+                
+              </div>
+              <div class="">
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Enter email">
+                
+              </div>
+              <div class="">
+                <label for="Password" class="form-label">Password</label>
+                <input type="password" class="form-control" id="Password" placeholder=" Enter Password">
+              </div>
+             
+                <div>
+                  <div class=" form-check">
+                    <input type="checkbox" class="form-check-input" id="Remember" checked="">
+                    <label class="form-check-label" for="Remember">Remember me</label>
+                  </div>
+                </div>
+
+    
+              <div class="col-lg-12">
+                <a href="# " class="btn view_all w-100 mb-3">Sign In </a>
+
+                <div class="social_login">
+                  <div class="small_text text-center  ">
+                    <small>Or sign up with
+                    </small>
+                  </div>
+
+                    <div class="d-flex justify-content-between mt-lg-4 mt-md-4 mt-sm-3 mt-3 mb-3 mb-4">
+                      <div class="">
+                        <a href="# " class="fb_btn "><small><i class="bi bi-facebook me-2"></i> Facebook</small> </a>
+                      </div>
+    
+                      <div class="">
+                        <a href="# " class="google_btn "><small><i class="bi bi-google me-2"></i> Google</small> </a>
+                      </div>
+                    </div>
+                 
+
+                  <hr>
+
+                  <div class="dont_acc text-center">
+                    <p>Already have an account? <a href="# " class="text-decoration-underline"  > Login</a></p>
+                  </div>
+                </div>
+              </div>
+              </div>
+          </form>
+         </div>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+  <!-- ends -->
+
+</body>
+
+</html>
