@@ -3178,7 +3178,7 @@ h6 {
 
 .search-form input {
   border: 0;
-  
+
   transition: 0.3s;
   height: 50px;
   font-size: 18px;
@@ -3663,9 +3663,10 @@ hr {
 
 
 
-#header .dropdown-toggle::after{
+#header .dropdown-toggle::after {
   display: none;
 }
+
 /* farhan css ends */
 
 
@@ -3710,16 +3711,21 @@ hr {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-
-  body , section{
-    overflow-x: hidden !important;
+  #signup .fb_btn, #signup .fb_btn:focus, #signup .google_btn, #signup .google_btn:focus {
+    padding: 14px 40px;
 }
+
+  body,
+  section {
+    overflow-x: hidden !important;
   }
-  #header.btn, #header .btn-group>.btn.dropdown-toggle-split:first-child ,
-  #header .btn-group>.btn:not(:last-child):not(.dropdown-toggle)
-  {
+
+  #header.btn,
+  #header .btn-group>.btn.dropdown-toggle-split:first-child,
+  #header .btn-group>.btn:not(:last-child):not(.dropdown-toggle) {
     border: 0;
   }
+
   .top_deals_form {
 
     padding: 40px 20px 25px;
@@ -3746,7 +3752,7 @@ hr {
     white-space: nowrap;
     text-overflow: ellipsis;
     border-radius: 50px;
-    width: 90%;
+    width: 80%;
 
   }
 
