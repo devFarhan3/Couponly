@@ -3711,6 +3711,12 @@ hr {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+  .category_box {
+   
+    padding: 10px 10px;
+    text-align: center;
+}
+
   #signup .fb_btn, #signup .fb_btn:focus, #signup .google_btn, #signup .google_btn:focus {
     padding: 14px 40px !important;
 }
