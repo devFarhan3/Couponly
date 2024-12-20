@@ -3082,7 +3082,7 @@ h6 {
 
 .subscribeHeading {
   font-family: var(--default-font);
-  font-size:clamp(16px, 5vw,  24px);
+  font-size: clamp(16px, 5vw, 24px);
   font-weight: 800;
   color: rgb(49, 49, 49);
   line-height: 1.5;
@@ -3667,6 +3667,34 @@ hr {
   display: none;
 }
 
+.best_offers p {
+  font-family: var(--default-font);
+  font-size: 14px;
+  font-weight: 500;
+  color: #3bc7a2;
+  line-height: 1.5;
+  /* margin-bottom: 0px; */
+}
+
+.best_offers h6 {
+  font-family: var(--default-font);
+  font-size: 24px;
+  font-weight: 600;
+  color: rgb(73, 75, 82);
+  line-height: 1.7;
+}
+
+.best_offers .view_all {
+  background-color: var(--light-green);
+}
+
+#TopBrands .modal-body{
+  background-color: rgb(255, 255, 255);
+    border-radius: 20px !important;
+    padding: 30px 30px;
+
+}
+
 /* farhan css ends */
 
 
@@ -3711,24 +3739,27 @@ hr {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
-  .catImg img 
-  {
+  .catImg img {
     width: 100px;
     height: 100px;
   }
 
-  .gift_cards_bg{
+  .gift_cards_bg {
     padding: 30px 35px;
   }
+
   .category_box {
-   
+
     padding: 10px 10px;
     text-align: center;
-}
+  }
 
-  #signup .fb_btn, #signup .fb_btn:focus, #signup .google_btn, #signup .google_btn:focus {
+  #signup .fb_btn,
+  #signup .fb_btn:focus,
+  #signup .google_btn,
+  #signup .google_btn:focus {
     padding: 14px 40px !important;
-}
+  }
 
   body,
   section {
@@ -3889,9 +3920,9 @@ hr {
 
 @media only screen and (max-width: 380px) {
   .search-form input {
-      white-space: nowrap;
-      text-overflow: ellipsis;
-      border-radius: 50px;
-      width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border-radius: 50px;
+    width: 70%;
   }
 }
