@@ -235,6 +235,7 @@ body {
   color: var(--default-color);
   background-color: var(--background-color);
   font-family: var(--default-font);
+  overflow-x: hidden !important;
 }
 
 a {
@@ -3177,7 +3178,7 @@ h6 {
 
 .search-form input {
   border: 0;
-  border-radius: 3px;
+  
   transition: 0.3s;
   height: 50px;
   font-size: 18px;
@@ -3185,8 +3186,9 @@ h6 {
   color: rgb(85, 85, 85);
   padding: 0px 40px 0px 20px;
   transition: 0.3s;
-  width: 85%;
+  width: 100%;
   outline: 0;
+  border-radius: 50px;
 }
 
 .search-form button {
@@ -3708,6 +3710,11 @@ hr {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+
+  body , section{
+    overflow-x: hidden !important;
+}
+  }
   #header.btn, #header .btn-group>.btn.dropdown-toggle-split:first-child ,
   #header .btn-group>.btn:not(:last-child):not(.dropdown-toggle)
   {
@@ -3739,6 +3746,7 @@ hr {
     white-space: nowrap;
     text-overflow: ellipsis;
     border-radius: 50px;
+    width: 90%;
 
   }
 
